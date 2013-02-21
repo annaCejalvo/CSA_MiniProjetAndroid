@@ -13,3 +13,8 @@ local.properties
 
 # Eclipse project files
 .classpath
+
+bin/res/drawable-hdpi/
+bin/res/drawable-ldpi/
+bin/res/drawable-mdpi/
+bin/res/drawable-xhdpi/

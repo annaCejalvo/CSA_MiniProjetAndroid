@@ -21,7 +21,8 @@
             android:id="@+id/btn_alentours"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/alentours" />
+            android:text="@string/alentours"
+            android:onClick="onClickGeo" />
 
     </LinearLayout>
 
