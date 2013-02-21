@@ -1,6 +1,5 @@
 package com.example.radar;
 
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -14,7 +13,7 @@ public class PhotoVille extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		Button accueil = (Button) findViewById(R.id.button1);
+		//Button accueil = (Button) findViewById(R.id.button1);
 		
 		setContentView(R.layout.activity_photo_ville);
 	}

@@ -5,6 +5,7 @@
     tools:context=".AccueilActivity" >
 
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -15,14 +16,21 @@
             android:id="@+id/btn_geo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onClickGeo"
             android:text="@string/geolocalisation" />
 
         <Button
             android:id="@+id/btn_alentours"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/alentours"
-            android:onClick="onClickGeo" />
+            android:onClick="onClickAlentours"
+            android:text="@string/alentours" />
+
+        <Button
+            android:id="@+id/btn_ShowLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
 
     </LinearLayout>
 

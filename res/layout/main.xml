@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:textStyle="bold"
+			android:text="X value:  ">
+		</TextView>
+		<ProgressBar android:layout_height="wrap_content"
+			android:id="@+id/progressBarX" android:layout_width="fill_parent"
+			style="?android:attr/progressBarStyleHorizontal" android:text="X value">
+		</ProgressBar>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:textStyle="bold"
+			android:text="Y value:  ">
+		</TextView>
+		<ProgressBar android:layout_height="wrap_content"
+			android:id="@+id/progressBarY" android:layout_width="fill_parent"
+			style="?android:attr/progressBarStyleHorizontal" android:text="Y value">
+		</ProgressBar>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:textStyle="bold"
+			android:text="Z value:  ">
+		</TextView>
+		<ProgressBar android:layout_height="wrap_content"
+			android:id="@+id/progressBarZ" android:layout_width="fill_parent"
+			style="?android:attr/progressBarStyleHorizontal" android:text="Z value">
+		</ProgressBar>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:id="@+id/layoutOfXYAcceleration"
+		android:background="#99ffffff" android:layout_marginTop="5dp">
+	</LinearLayout>
+
+</LinearLayout>
