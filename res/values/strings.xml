@@ -6,9 +6,13 @@
     <string name="menu_settings">Settings</string>
     <string name="geolocalisation">Où? Mais où??</string>
     <string name="alentours">Et autour alors?</string>
+    <string name="title_activity_hello_google_map">HelloGoogleMapActivity</string>
+    <string name="new_location">New Location : Latitude = %1$s, Longitude = %2$s, Altitude = %3$s avec une précision de %4$s mètres </string>
+    <string name="provider_disabled">The provider %s is now disabled</string>
+    <string name="provider_enabled">The provider %s is now enabled</string>
+    <string name="mapKey">AIzaSyBAh0I54NR53Xya7Mei4uYGQTHmQkLJaXM</string>
     <string name="title_activity_photo_ville">PhotoVille</string>
     
     <string name="pitch_name">PITCH</string>
     <string name="roll_name">Roll</string>
-
 </resources>

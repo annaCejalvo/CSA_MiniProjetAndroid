@@ -16,6 +16,14 @@ public class PhotoVille extends Activity {
 		//Button accueil = (Button) findViewById(R.id.button1);
 		
 		setContentView(R.layout.activity_photo_ville);
+		
+		setPouet();
+	}
+
+	private void setPouet() {
+		// TODO Auto-generated method stub
+		location;
+		SensorOrientation s = new SensorOrientation();
 	}
 
 	@Override

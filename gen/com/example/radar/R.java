@@ -25,18 +25,20 @@ public final class R {
         public static final int btn_ShowLocation=0x7f090003;
         public static final int btn_alentours=0x7f090002;
         public static final int btn_geo=0x7f090001;
-        public static final int button1=0x7f090004;
-        public static final int layoutOfXYAcceleration=0x7f090008;
+        public static final int button1=0x7f090005;
+        public static final int layoutOfXYAcceleration=0x7f090009;
         public static final int linearLayout1=0x7f090000;
-        public static final int menu_settings=0x7f090009;
-        public static final int progressBarX=0x7f090005;
-        public static final int progressBarY=0x7f090006;
-        public static final int progressBarZ=0x7f090007;
+        public static final int map=0x7f090004;
+        public static final int menu_settings=0x7f09000a;
+        public static final int progressBarX=0x7f090006;
+        public static final int progressBarY=0x7f090007;
+        public static final int progressBarZ=0x7f090008;
     }
     public static final class layout {
         public static final int accueil=0x7f030000;
-        public static final int activity_photo_ville=0x7f030001;
-        public static final int main=0x7f030002;
+        public static final int activity_hello_google_map=0x7f030001;
+        public static final int activity_photo_ville=0x7f030002;
+        public static final int main=0x7f030003;
     }
     public static final class menu {
         public static final int accueil=0x7f080000;
@@ -50,10 +52,15 @@ public final class R {
         public static final int app_name=0x7f060000;
         public static final int geolocalisation=0x7f060003;
         public static final int hello_world=0x7f060001;
+        public static final int mapKey=0x7f060009;
         public static final int menu_settings=0x7f060002;
-        public static final int pitch_name=0x7f060006;
-        public static final int roll_name=0x7f060007;
-        public static final int title_activity_photo_ville=0x7f060005;
+        public static final int new_location=0x7f060006;
+        public static final int pitch_name=0x7f06000b;
+        public static final int provider_disabled=0x7f060007;
+        public static final int provider_enabled=0x7f060008;
+        public static final int roll_name=0x7f06000c;
+        public static final int title_activity_hello_google_map=0x7f060005;
+        public static final int title_activity_photo_ville=0x7f06000a;
     }
     public static final class style {
         /** 

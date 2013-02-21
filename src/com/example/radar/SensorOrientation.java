@@ -16,44 +16,24 @@ public class SensorOrientation  extends Activity implements SensorEventListener 
 	 */
 	private static final String LOG_TAG = "SensorsOrientation";
 
-	/******************************************************************************************/
-	/** Current sensor value **************************************************************************/
-	/******************************************************************************************/
 	/**
 	 * Current value of the accelerometer
 	 */
 	float x, y, z;
-	/******************************************************************************************/
-	/** View **************************************************************************/
-	/******************************************************************************************/
-	/**
-	 * The Layout Parameter used to add Name in LilContent
-	 */
+
 	LinearLayout.LayoutParams lParamsName;
-	/**
-	 * The layout within the graphic is draw
-	 */
+
 	LinearLayout xyAccelerationLayout;
-	/**
-	 * The view that draw the graphic
-	 */
+
 	OrientationView xyAccelerationView;
-	/**
-	 * The progress bar that displays the X, Y, Z value of the vector
-	 */
+
 	ProgressBar pgbX, pgbY, pgbZ;
-	/******************************************************************************************/
-	/** Sensors and co **************************************************************************/
-	/******************************************************************************************/
+
 	/** * The sensor manager */
 	SensorManager sensorManager;
-	/**
-	 * The orientation
-	 */
+
 	Sensor orientation;
-	/******************************************************************************************/
-	/** Manage life cycle **************************************************************************/
-	/******************************************************************************************/
+
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -109,14 +89,6 @@ public class SensorOrientation  extends Activity implements SensorEventListener 
 		super.onDestroy();
 	}
 
-	/******************************************************************************************/
-	/** ProgressBar update **************************************************************************/
-	/******************************************************************************************/
-
-	/**
-	 * Update the value of the progressbar according to the value of the sensor
-	 * we use the secondary progress to display negative value
-	 */
 	private void updateProgressBar() {
 		if (x > 0) {
 			pgbX.setProgress((int) x);
@@ -135,9 +107,6 @@ public class SensorOrientation  extends Activity implements SensorEventListener 
 		}
 	}
 
-	/******************************************************************************************/
-	/** SensorEventListener **************************************************************************/
-	/******************************************************************************************/
 	@Override
 	public void onAccuracyChanged(Sensor sensor, int accuracy) {
 		// Nothing to do
