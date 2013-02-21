@@ -4,8 +4,8 @@
     <string name="app_name">Radar</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    
     <string name="geolocalisation">Où? Mais où??</string>
     <string name="alentours">Et autour alors?</string>
+    <string name="title_activity_photo_ville">PhotoVille</string>
 
 </resources>
